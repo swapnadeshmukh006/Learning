@@ -16,12 +16,12 @@ public class FamilyMain
     Husband swapnaHusband = swapna.getHusband();
     Son swapnaSon = swapna.getSon();
 
-    System.out.println(" Swapna " +" "+ swapna.getFirstName());
-    System.out.println"Swapna" + swapna.getLastName() );
-    System.out.println("Mother" + swapna.getFirstName() +swapna.getLastName());
-    System.out.println("Father" + swapna.getFirstName() +swapna.getLastName());
-    System.out.println("Husband" + swapna.getFirstName() +swapna.getLastName());
-    System.out.println("Son" + swapna.getFirstName() +swapna.getLastName());
+    System.out.println("Swapna first Name" +"- "+ swapna.getFirstName());
+    System.out.println("Swapna Last Name" + "- "+ swapna.getLastName());
+    System.out.println("Mother" + "-" + swapnaMother.getMotherFirstName() +" " + swapnaMother.getMotherLastName());
+    System.out.println("Father" + "- " + swapnaFather.getFatherFirstName() +" " + swapnaFather.getFatherLastName());
+    System.out.println("Husband" + " -" + swapnaHusband.getHusbandFirstName() +" " + swapnaHusband.getHusbandLastName());
+    System.out.println("Son" + "- " + swapnaSon.getSonFirstName() + " " + swapnaSon.getSonLastName());
 
   }
 }

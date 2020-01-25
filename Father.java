@@ -1,20 +1,20 @@
 public class Father
 {
 
-  private String firstName;
-  private String lastName;
-public Father(String firstName,String lastName)
+  private String fatherFirstName;
+  private String fatherLastName;
+public Father(String fatherFirstName,String fatherLastName)
 {
-  this.firstName = firstName ;
-  this.lastName = lastName ;
+  this.fatherFirstName = fatherFirstName ;
+  this.fatherLastName = fatherLastName ;
 }
-public String getFirstName()
+public String getFatherFirstName()
 {
-  return this.firstName;
+  return this.fatherFirstName;
 }
-public String getLastName()
+public String getFatherLastName()
 {
-  return this.lastName;
+  return this.fatherLastName;
 }
 
 }

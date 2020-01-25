@@ -1,19 +1,19 @@
 public class Son
 {
-  private String firstName;
-  private String lastName;
-public Son(String firstName,String lastName)
+  private String sonFirstName;
+  private String sonLastName;
+public Son(String sonFirstName,String sonLastName)
 {
-  this.firstName = firstName ;
-  this.lastName = lastName ;
+  this.sonFirstName = sonFirstName ;
+  this.sonLastName = sonLastName ;
 }
-public String getFirstName()
+public String getSonFirstName()
 {
-  return this.firstName;
+  return this.sonFirstName;
 }
-public String getLastName()
+public String getSonLastName()
 {
-  return this.lastName;
+  return this.sonLastName;
 }
 
 

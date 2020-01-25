@@ -1,19 +1,19 @@
 public class Husband
 {
-  private String firstName;
-  private String lastName;
-public Husband(String firstName,String lastName)
+  private String husbandFirstName;
+  private String husbandLastName;
+public Husband(String husbandFirstName,String husbandLastName)
 {
-  this.firstName = firstName ;
-  this.lastName = lastName ;
+  this.husbandFirstName = husbandFirstName ;
+  this.husbandLastName = husbandLastName ;
 }
-public String getFirstName()
+public String getHusbandFirstName()
 {
-  return this.firstName;
+  return this.husbandFirstName;
 }
-public String getLastName()
+public String getHusbandLastName()
 {
-  return this.lastName;
+  return this.husbandLastName;
 }
 
 

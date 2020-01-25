@@ -1,19 +1,19 @@
 public class Mother
 {
-  private String firstName;
-  private String lastName;
-public Mother(String firstName,String lastName)
+  private String motherFirstName;
+  private String motherLastName;
+public Mother(String motherFirstName,String motherLastName)
 {
-  this.firstName = firstName ;
-  this.lastName = lastName ;
+  this.motherFirstName = motherFirstName ;
+  this.motherLastName = motherLastName ;
 }
-public String getFirstName()
+public String getMotherFirstName()
 {
-  return this.firstName;
+  return this.motherFirstName;
 }
-public String getLastName()
+public String getMotherLastName()
 {
-  return this.lastName;
+  return this.motherLastName;
 }
 
 

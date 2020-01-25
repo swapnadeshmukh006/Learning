@@ -12,11 +12,11 @@ public static void main(String[] args)
   Company employee1Company = employee1.getCompany();
   Address1 companyAddress1 = company.getAddress1();
 
-  System.out.println("Employee1 first name" + employee1.getFirstName() );
-  System.out.println("Employee1 last name" +employee1.getLastName() );
-  System.out.println("Employee1 id" + employee1.getId() ) ;
-  System.out.println("Company" + employee1Company.getCompanyName() + "company id" +employee1Company.getCompanyId() +employee1Company.getAddress1() );
-  System.out.println("Address1" + companyAddress1.getStreetName() + " " +companyAddress1.getAptNo() + " " +companyAddress1.getCity()
+  System.out.println("Employee1 first name" + " " +employee1.getFirstName() );
+  System.out.println("Employee1 last name" +" "+employee1.getLastName() );
+  System.out.println("Employee1 id" +" "+ employee1.getId() ) ;
+  System.out.println("Company" + " "+ employee1Company.getCompanyName() + " "+"company id" +employee1Company.getCompanyId() +" " +employee1Company.getAddress1() );
+  System.out.println("Address1" + " " +companyAddress1.getStreetName() + " " +companyAddress1.getAptNo() + " " +companyAddress1.getCity()
   + " "+companyAddress1.getZipCode() +  " " + companyAddress1.getCountry()) ;
 
 }
