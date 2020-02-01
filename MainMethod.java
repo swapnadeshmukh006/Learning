@@ -1,3 +1,7 @@
+package com.industry;
+import com.industry.employeedata.Employee1;
+import com.industry.employeedata.Address1;
+import com.industry.employeecompany.Company;
 public class MainMethod
 {
 

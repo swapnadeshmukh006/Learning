@@ -1,7 +1,9 @@
+package com.machines.automobiles;
+
 public class Car
 {
   private String carCompanyName;
-  private String carColor;
+  private static String carColor;
   private String carModel;
 
   public Car(String carCompanyName,String carColor,String carModel)

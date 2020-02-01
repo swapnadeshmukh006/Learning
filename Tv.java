@@ -1,5 +1,6 @@
-public class Tv
-{
+package com.machines.electronics;
+
+public class Tv {
   private String tvCompany;
   private String tvSize;
   private String tvColor;

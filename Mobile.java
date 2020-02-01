@@ -1,3 +1,5 @@
+package com.machines.electronics;
+
 public class Mobile
 {
   private String mobileCompany;
