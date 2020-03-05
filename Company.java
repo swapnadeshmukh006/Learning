@@ -1,3 +1,7 @@
+
+package com.industry.employeecompany;
+
+import com.industry.employeedata.Address1;
 public class Company
 {
 private String companyName;

@@ -1,3 +1,6 @@
+package com.industry.employeedata;
+
+
 public class Address1
 {
   private String streetName;

@@ -1,3 +1,4 @@
+package com.family.aftermarriage;
 public class Husband
 {
   private String husbandFirstName;

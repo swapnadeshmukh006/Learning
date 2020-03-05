@@ -1,0 +1,19 @@
+package com.typecast;
+  
+public class WideCasting{
+
+public static void main(String args[]){
+public c
+
+    int myInt = 9;
+    double myDouble = myInt; // Automatic casting: int to double
+    float f = 1.5f;
+    double fd = f;
+
+    System.out.println(myInt);      // Outputs 9
+    System.out.println(myDouble);   // Outputs 9.0
+    System.out.println(f);      // Outputs 1.5f
+    System.out.println(fd);      // Outputs 1.5f
+
+  }
+
